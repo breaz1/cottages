@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('~/assets/fonts/bebas.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'gotham pro';
+    src: url('~/assets/fonts/gothampro.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'gotham pro light';
+    src: url('~/assets/fonts/gothampro_light.ttf') format('truetype');
+}
+.bebas {
+font-family: 'Bebas Neue', sans-serif;
+}
+.Gotham{
+    font-family: 'gotham pro', sans-serif;
+}
+.Gotham-light{
+    font-family: 'gotham pro light', sans-serif;
+}
